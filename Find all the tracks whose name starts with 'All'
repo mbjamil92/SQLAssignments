@@ -1,0 +1,5 @@
+Select
+TrackId,
+Name
+From Tracks
+Where Name LIKE 'All%';

@@ -1,0 +1,8 @@
+Select
+CustomerId,
+State,
+FirstName,
+LastName,
+Company
+from Customers
+Where State IN('RJ','DF','AB','BC','CA','WA','NY');

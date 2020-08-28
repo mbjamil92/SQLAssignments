@@ -1,0 +1,19 @@
+Select
+InvoiceId,
+CustomerId,
+Total
+From Invoices
+ORDER BY Total DESC
+//Tip by Sadie:
+Select ProductId,
+UnitsonOrder,
+UnitPrice,
+UnitsOnOrder * UnitPrice = Total_order_cost
+From Products
+Correct:
+Select 
+COUNT(*) As number_of_orders,
+CustomerId
+From Invoices
+Group By CustomerId
+ORDER BY Number_of_orders DESC;

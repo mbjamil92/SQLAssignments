@@ -1,0 +1,8 @@
+Select
+InvoiceDate,
+InvoiceId,
+CustomerId,
+Total
+From Invoices
+Where(CustomerId Between 56 AND 58)
+AND total between 1 AND 5;

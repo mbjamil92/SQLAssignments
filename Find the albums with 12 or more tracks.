@@ -1,0 +1,10 @@
+Select
+AlbumId,
+TrackId
+From Tracks
+Where TrackId >= 12;
+
+Tips for calculating total:
+Select Count(CustomerID) As total_customers
+Count(*) is used for both filled values and null values
+DISTINCT is used with count func e.g Select Count(DISTINCT CustomerID)

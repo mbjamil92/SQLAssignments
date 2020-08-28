@@ -1,0 +1,5 @@
+Select
+InvoiceId,
+Total
+from Invoices
+Where Total Between 5 And 15

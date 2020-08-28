@@ -1,0 +1,7 @@
+Select
+InvoiceId,
+Total,
+BillingCity
+From Invoices
+Where BillingCity IN('Brasilia','Edmonton','Vancouver')
+ORDER BY Total DESC;

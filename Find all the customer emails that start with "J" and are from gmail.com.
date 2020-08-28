@@ -1,0 +1,5 @@
+Select
+Email,
+CustomerID
+From Customers
+Where(Email LIKE 'J%')
